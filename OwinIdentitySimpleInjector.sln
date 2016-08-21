@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinIdentitySimpleInjector", "OwinIdentitySimpleInjector\OwinIdentitySimpleInjector.csproj", "{143B14C7-331D-4A14-AD1E-938ACDC7D343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinIdentitySimpleInjector.BLL", "OwinIdentitySimpleInjector.BLL\OwinIdentitySimpleInjector.BLL.csproj", "{EE370C5C-A5CE-4D53-BB4F-9DF43591A9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinIdentitySimpleInjector.Contracts", "OwinIdentitySimpleInjector.Contracts\OwinIdentitySimpleInjector.Contracts.csproj", "{A0267AEB-F4A5-41CB-93CE-FE91629C2C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinIdentitySimpleInjector.BO", "OwinIdentitySimpleInjector.BO\OwinIdentitySimpleInjector.BO.csproj", "{9991BD5C-F28E-46F6-92DB-797778CE21AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinIdentitySimpleInjector.Core", "OwinIdentitySimpleInjector.Core\OwinIdentitySimpleInjector.Core.csproj", "{F2252E63-4525-4019-9DF6-5D2C490F0877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinIdentitySimpleInjector.DAL", "OwinIdentitySimpleInjector.DAL\OwinIdentitySimpleInjector.DAL.csproj", "{14CCAB3C-9F91-4C2C-AE6F-6F9F537D8E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinIdentitySimpleInjector.Tests", "OwinIdentitySimpleInjector.Tests\OwinIdentitySimpleInjector.Tests.csproj", "{E9C9CB13-0AA1-4FCB-9AAB-9A18EAE16305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{143B14C7-331D-4A14-AD1E-938ACDC7D343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143B14C7-331D-4A14-AD1E-938ACDC7D343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143B14C7-331D-4A14-AD1E-938ACDC7D343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143B14C7-331D-4A14-AD1E-938ACDC7D343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE370C5C-A5CE-4D53-BB4F-9DF43591A9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE370C5C-A5CE-4D53-BB4F-9DF43591A9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE370C5C-A5CE-4D53-BB4F-9DF43591A9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE370C5C-A5CE-4D53-BB4F-9DF43591A9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0267AEB-F4A5-41CB-93CE-FE91629C2C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0267AEB-F4A5-41CB-93CE-FE91629C2C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0267AEB-F4A5-41CB-93CE-FE91629C2C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0267AEB-F4A5-41CB-93CE-FE91629C2C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9991BD5C-F28E-46F6-92DB-797778CE21AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9991BD5C-F28E-46F6-92DB-797778CE21AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9991BD5C-F28E-46F6-92DB-797778CE21AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9991BD5C-F28E-46F6-92DB-797778CE21AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2252E63-4525-4019-9DF6-5D2C490F0877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2252E63-4525-4019-9DF6-5D2C490F0877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2252E63-4525-4019-9DF6-5D2C490F0877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2252E63-4525-4019-9DF6-5D2C490F0877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CCAB3C-9F91-4C2C-AE6F-6F9F537D8E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CCAB3C-9F91-4C2C-AE6F-6F9F537D8E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CCAB3C-9F91-4C2C-AE6F-6F9F537D8E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CCAB3C-9F91-4C2C-AE6F-6F9F537D8E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C9CB13-0AA1-4FCB-9AAB-9A18EAE16305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C9CB13-0AA1-4FCB-9AAB-9A18EAE16305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C9CB13-0AA1-4FCB-9AAB-9A18EAE16305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C9CB13-0AA1-4FCB-9AAB-9A18EAE16305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
