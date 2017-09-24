@@ -19,3 +19,5 @@
 # Ignore static files
 OwinIdentitySimpleInjector/OwinIdentitySimpleInjector/Scripts/* linguist-vendored
 OwinIdentitySimpleInjector/OwinIdentitySimpleInjector/Content/* linguist-vendored
+*.js linguist-vendored=false
+*.css linguist-vendored=false
