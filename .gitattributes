@@ -15,3 +15,8 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+
+# Ignore static files
+OwinIdentitySimpleInjector/OwinIdentitySimpleInjector/Scripts/* linguist-vendored
+OwinIdentitySimpleInjector/OwinIdentitySimpleInjector/Content/* linguist-vendored
